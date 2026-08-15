@@ -1,16 +1,36 @@
-# React + Vite
+# HabitFlow 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+HabitFlow, kullanıcıların günlük alışkanlıklarını ekleyip takip edebildiği bir web uygulamasıdır. Kullanıcılar yeni bir alışkanlık ekleyebilir, mevcut alışkanlıkları güncelleyebilir, silebilir ve her gün tamamlayıp tamamlamadıklarını işaretleyebilir.
 
-Currently, two official plugins are available:
+## Kullanılan Teknolojiler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React (Vite ile kurulmuştur)
+- Tailwind CSS
+- LocalStorage (veriler tarayıcıda saklanır)
 
-## React Compiler
+## Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ Alışkanlık ekleme
+- ✅ Alışkanlıkları listeleme
+- ✅ Alışkanlık güncelleme
+- ✅ Alışkanlık silme
+- ✅ Günlük tamamlama takibi ve istatistikler
 
-## Expanding the Oxlint configuration
+## Nasıl Çalıştırılır
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Ekran Görüntüsü 
+
+## Ekran Görüntüsü
+
+![Ana Sayfa](./screenshots/image_1.jpeg)
+![Alışkanlık Ekleme](./screenshots/image_2.jpeg)
+![İstatistikler](./screenshots/image_3.jpeg)
+
+## Canlı Demo 
+
+habitflow3407.netlify.app
