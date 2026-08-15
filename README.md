@@ -33,4 +33,7 @@ npm run dev
 
 ## Canlı Demo 
 
-habitflow3407.netlify.app
+(https://habitflow3407.netlify.app)
+
+## GitHub Linki
+(https://github.com/firdevsnml/habit-flow)
